@@ -50,3 +50,5 @@ class Card2 extends HTMLElement {
     return template;
   }
 }
+
+customElements.define("card-component", Card2);
