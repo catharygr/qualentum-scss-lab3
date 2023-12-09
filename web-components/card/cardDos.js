@@ -27,4 +27,13 @@ class Card2 extends HTMLElement {
     shadowRoot.innerHTML = "";
     shadowRoot.appendChild(this.htmlElement().content);
   }
+  htmlElement() {
+    const html = `
+    <style>
+      .card-component__container {
+        padding: ${this.cardPadding};
+        border-radius: ${this.cardBordeRadios};
+        background-color: var(card-component__container);
+        height: ${this.cardHeight};
+    `;
 }
