@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <base href="http://127.0.0.1:5500" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Guía de estilos de The Vegan Restaurant</title>
+    <meta
+      name="description"
+      content="Guía de estilos del sitio web de The Vegan Restaurant"
+    />
+    <link
+      rel="stylesheet"
+      href="css/first.css"
+    />
+    <link
+      rel="preload"
+      href="css/guide.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="stylesheet"
+      href="css/guide.css"
+    />
+  </head>
+  <body>
+    <nav id="main-menu">
+      <div>
+        <img
+          src="img/logo-small.png"
+          alt="logo de the vegan restaurant"
+        />
+      </div>
+      <div>
+        <h2>The Vegan Restaurant</h2>
+      </div>
+    </nav>
+    <div id="content">
+      <main>
+        <article>
+          <header>
+            <h1>
+              Guía de estilos de <br />
+              The Vegan Restaurant
+            </h1>
+            <p>
+              Esta es la guía de estilos de
+              <abbr title="The Vegan Restaurant">TVR</abbr>, un restaurante
+              vegano ficticio. Aquí podemos encontrar la definición de todos los
+              estilos del sitio, de este modo nos sirve de referencia para la
+              creación de los diferentes elementos del sitio web.
+            </p>
+          </header>
+
+          <!-- COLORS -->
+          <section id="colors">
+            <header>
+              <h2>Colores</h2>
+            </header>
+            <div class="wrapper">
+              <!-- Primer card -->
+              <card-component
+                type-of-card="colores"
+                classes="bg-primary-color font-contrast-color"
+              >
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  <b>Color --primary-color</b>
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --primary-color: #c9ab81
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --primary-complement-color: #819fc9
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --primary-dark-color: #7c5e35
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --primary-darkest-color: #352817
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --primary-light-color: #f7f2ec
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --primary-lightest-color: white
+                </li>
+              </card-component>
+              <!-- Segundo card -->
+              <card-component
+                type-of-card="colores"
+                classes="bg-secondary-color "
+              >
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  <b>Color --secondary-color</b>
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --secondary-color: #59335c
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --secondary-complement-color: #365c33
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --secondary-dark-color: black
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --secondary-darkest-color: black
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --secondary-light-color: #ae75b3
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --secondary-lightest-color: #d5b7d7
+                </li>
+              </card-component>
+              <!-- Tercer card -->
+              <card-component
+                type-of-card="colores"
+                classes="bg-neutral-color"
+              >
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  <b>Color --neutral-color</b>
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --neutral-color: #333333
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --neutral-complement-color: #333333
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --neutral-dark-color: black
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --neutral-darkest-color: black
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --neutral-light-color: gray
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --neutral-lightest-color: #b3b3b3
+                </li>
+              </card-component>
+              <!-- Cuarto card -->
+              <card-component
+                type-of-card="colores"
+                classes="bg-warning-color"
+              >
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  <b>Color --warning-color</b>
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --warning-color: #cd0707
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --warning-complement-color: #07cdcd
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --warning-dark-color: #390202
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --warning-darkest-color: black
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --warning-light-color: #fa7373
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --warning-lightest-color: #fed5d5
+                </li>
+              </card-component>
+              <!-- Quinto card -->
+              <card-component
+                type-of-card="colores"
+                classes="bg-info-color font-contrast-color"
+              >
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  <b>Color --info-color</b>
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-color: #f0ad4e
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-complement-color: #4e91f0
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-dark-color: #985f0d
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-darkest-color: #3a2405
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-light-color: #fceedb
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-lightest-color: white
+                </li>
+              </card-component>
+              <!-- Sexto card -->
+              <card-component
+                type-of-card="colores"
+                classes="bg-text-color font-contrast-color"
+              >
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  <b>Color --text-color</b>
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-color: white
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-complement-color: white
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-dark-color: #b3b3b3
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-darkest-color: gray
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-light-color: white
+                </li>
+                <li
+                  class="card-color-li"
+                  slot="card-color-content"
+                >
+                  --info-lightest-color: white
+                </li>
+              </card-component>
+            </div>
+          </section>
+
+          <!-- TYPOGRAPHY -->
+          <section id="typography">
+            <header>
+              <h2>Tipografía</h2>
+            </header>
+            <div class="guide-typography row">
+              <div class="guide-typography__example col">
+                <p class="header1">Header Level 1</p>
+              </div>
+              <div class="guide-typography__properties col">
+                <ul>
+                  <li>font-size: 3.5rem</li>
+                  <li>font-weight: 900</li>
+                  <li>padding: 1.5rem 0</li>
+                  <li>color: --gold-color</li>
+                </ul>
+              </div>
+            </div>
+            <div class="guide-typography row">
+              <div class="guide-typography__example col">
+                <p class="header2">Header Level 2</p>
+              </div>
+              <div class="guide-typography__properties col">
+                <ul>
+                  <li>font-size: 2.5rem</li>
+                  <li>font-weight: 700</li>
+                  <li>padding: 1rem 0</li>
+                  <li>color: --gold-color</li>
+                </ul>
+              </div>
+            </div>
+            <div class="guide-typography row">
+              <div class="guide-typography__example col">
+                <p class="header3">Header Level 3</p>
+              </div>
+              <div class="guide-typography__properties col">
+                <ul>
+                  <li>font-size: 2rem</li>
+                  <li>font-weight: 400</li>
+                  <li>padding: 1rem 0</li>
+                  <li>color: --gold-color</li>
+                </ul>
+              </div>
+            </div>
+            <div class="guide-typography row">
+              <div class="guide-typography__example col">
+                <p class="header4">Header Level 4</p>
+              </div>
+              <div class="guide-typography__properties col">
+                <ul>
+                  <li>font-size: 1.5rem</li>
+                  <li>font-weight: 400</li>
+                  <li>padding: 1rem 0</li>
+                  <li>color: --gold-color</li>
+                </ul>
+              </div>
+            </div>
+            <div class="guide-typography row">
+              <div class="guide-typography__example col">
+                <p class="header5">Header Level 5</p>
+              </div>
+              <div class="guide-typography__properties col">
+                <ul>
+                  <li>font-size: 1.25rem</li>
+                  <li>font-weight: 400</li>
+                  <li>padding: 1rem 0</li>
+                  <li>color: --gold-color</li>
+                </ul>
+              </div>
+            </div>
+            <div class="guide-typography row">
+              <div class="guide-typography__example col">
+                <p class="header6">Header Level 6</p>
+              </div>
+              <div class="guide-typography__properties col">
+                <ul>
+                  <li>font-size: 1rem</li>
+                  <li>font-weight: 400</li>
+                  <li>padding: 1rem 0</li>
+                  <li>color: --gold-color</li>
+                </ul>
+              </div>
+            </div>
+            <div class="guide-typography row">
+              <div class="guide-typography__example col">
+                <p>Este es un párrafo de ejemplo</p>
+              </div>
+              <div class="guide-typography__properties col">
+                <ul>
+                  <li>font-size: 1rem</li>
+                  <li>font-weight: 400</li>
+                  <li>padding: 1rem 0</li>
+                  <li>color: --light-color</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- CONTENT ELEMENTS -->
+
+          <section id="content-elements">
+            <header>
+              <h2>Contenido</h2>
+            </header>
+            <div class="wrapper">
+              <card-component type-of-card="contenido">
+                <p slot="card-content-example"><b>Link</b></p>
+                <hr slot="card-content-example" />
+                <p slot="card-content-example"><b>Ejemplo:</b></p>
+                <p slot="card-content-example">
+                  Este es un párrafo de ejemplo que sirve para mostrar
+                  <a href="#">algún estilo</a> de etiqueta HTML.
+                </p>
+                <p slot="card-content-properties"><b>Código:</b></p>
+                <code slot="card-content-properties">
+                  &lt;p>Este es un párrafo de ejemplo que sirve para mostrar
+                  &lt;a href="#">algún estilo&lt;/a> de etiqueta HTML.&lt;/p>
+                </code>
+              </card-component>
+
+              <card-component type-of-card="contenido">
+                <p slot="card-content-example"><b>Cursiva</b></p>
+                <hr slot="card-content-example" />
+                <p slot="card-content-example"><b>Ejemplo:</b></p>
+                <p slot="card-content-example">
+                  Este es un párrafo de ejemplo que sirve para mostrar
+                  <i>algún estilo</i> de etiqueta HTML.
+                </p>
+                <p slot="card-content-properties"><b>Código:</b></p>
+                <code slot="card-content-properties">
+                  &lt;p>Este es un párrafo de ejemplo que sirve para mostrar
+                  &lt;a href="#">algún estilo&lt;/a> de etiqueta HTML.&lt;/p>
+                </code>
+              </card-component>
+              <card-component type-of-card="contenido">
+                <p slot="card-content-example"><b>Negrita</b></p>
+                <hr slot="card-content-example" />
+                <p slot="card-content-example"><b>Ejemplo:</b></p>
+                <p slot="card-content-example">
+                  Este es un párrafo de ejemplo que sirve para mostrar
+                  <b>algún estilo</b> de etiqueta HTML.
+                </p>
+                <p slot="card-content-properties"><b>Código:</b></p>
+                <code slot="card-content-properties">
+                  &lt;p>Este es un párrafo de ejemplo que sirve para mostrar
+                  &lt;a href="#">algún estilo&lt;/a> de etiqueta HTML.&lt;/p>
+                </code>
+              </card-component>
+              <card-component type-of-card="contenido">
+                <p slot="card-content-example"><b>Marca</b></p>
+                <hr slot="card-content-example" />
+                <p slot="card-content-example"><b>Ejemplo:</b></p>
+                <p slot="card-content-example">
+                  Este es un párrafo de ejemplo que sirve para mostrar
+                  <mark>algún estilo</mark> de etiqueta HTML.
+                </p>
+                <p slot="card-content-properties"><b>Código:</b></p>
+                <code slot="card-content-properties">
+                  &lt;p>Este es un párrafo de ejemplo que sirve para mostrar
+                  &lt;a href="#">algún estilo&lt;/a> de etiqueta HTML.&lt;/p>
+                </code>
+              </card-component>
+              <card-component type-of-card="contenido">
+                <p slot="card-content-example"><b>Pequeño</b></p>
+                <hr slot="card-content-example" />
+                <p slot="card-content-example"><b>Ejemplo:</b></p>
+                <p slot="card-content-example">
+                  Este es un párrafo de ejemplo que sirve para mostrar
+                  <small>algún estilo</small> de etiqueta HTML.
+                </p>
+                <p slot="card-content-properties"><b>Código:</b></p>
+                <code slot="card-content-properties">
+                  &lt;p>Este es un párrafo de ejemplo que sirve para mostrar
+                  &lt;a href="#">algún estilo&lt;/a> de etiqueta HTML.&lt;/p>
+                </code>
+              </card-component>
+              <card-component type-of-card="contenido">
+                <p slot="card-content-example"><b>Lista</b></p>
+                <hr slot="card-content-example" />
+                <p slot="card-content-example"><b>Ejemplo:</b></p>
+                <ul slot="card-content-properties">
+                  <li>Elemento 1</li>
+                  <li>Elemento 2</li>
+                  <li>Elemento 3</li>
+                </ul>
+                <p slot="card-content-properties"><b>Código:</b></p>
+                <code slot="card-content-properties">
+                  &lt;ul><br />
+                  &lt;li>Elemento 1&lt;/li><br />
+                  &lt;li>Elemento 2&lt;/li><br />
+                  &lt;li>Elemento 3&lt;/li><br />
+                  &lt;/ul>
+                </code>
+              </card-component>
+              <card-component type-of-card="contenido">
+                <p slot="card-content-example"><b>Lista decorada</b></p>
+                <hr slot="card-content-example" />
+                <p slot="card-content-example"><b>Ejemplo:</b></p>
+                <ul
+                  class="decorated"
+                  slot="card-content-properties"
+                >
+                  <li class="circular">Elemento 1</li>
+                  <li>Elemento 2</li>
+                  <li class="circular">Elemento 3</li>
+                </ul>
+                <p slot="card-content-properties"><b>Código:</b></p>
+                <code slot="card-content-properties">
+                  &lt;ul class="decorated"><br />
+                  &lt;li>Elemento 1&lt;/li><br />
+                  &lt;li>Elemento 2&lt;/li><br />
+                  &lt;li>Elemento 3&lt;/li><br />
+                  &lt;/ul>
+                </code>
+              </card-component>
+            </div>
+          </section>
+          <section id="layout">
+            <header>
+              <h2>Layout</h2>
+            </header>
+            <div class="row">
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+              <div class="col-style col-2 col-sm-3 col-md-4 col-lg-6 col-xl-12">
+                COLUMN
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+    </div>
+    <footer>
+      <div class="sign">
+        <p>Creado por Miguel Ángel Muñoz Viejo</p>
+      </div>
+      <a
+        href="#main-sidebar"
+        alt="Ve a la parte de arriba de la página"
+        ><i
+          id="go-top"
+          class="fa-solid fa-arrow-up"
+        >
+          TOP</i
+        ></a
+      >
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/3e29316f4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./web-components/card/card.js"></script>
+  </body>
+</html>
