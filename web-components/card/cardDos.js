@@ -1,5 +1,3 @@
-const { render } = require("sass");
-
 class Card2 extends HTMLElement {
   cardBordeRadios = "5rem";
   cardPadding = "1rem";
@@ -27,6 +25,7 @@ class Card2 extends HTMLElement {
     shadowRoot.innerHTML = "";
     shadowRoot.appendChild(this.htmlElement().content);
   }
+
   htmlElement() {
     const html = `
     <style>
@@ -35,5 +34,19 @@ class Card2 extends HTMLElement {
         border-radius: ${this.cardBordeRadios};
         background-color: var(card-component__container);
         height: ${this.cardHeight};
+      }
+    </style>
+
+
+    <div class="card-component">
+    <div class="card-component__container">
+      <slot></slot>
+    </div>
+    </div>
+    
     `;
+    const template = document.createElement("template");
+    template.innerHTML = html;
+    return template;
+  }
 }
