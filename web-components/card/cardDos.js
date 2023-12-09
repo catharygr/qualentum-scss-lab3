@@ -7,4 +7,7 @@ class Card2 extends HTMLElement {
     super();
     this.attachShadow({ mode: "open" });
   }
+  static get observedAttributes() {
+    return ["card-borde-radios", "card-padding", "card-height"];
+  }
 }
