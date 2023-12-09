@@ -12,7 +12,7 @@ class Card2 extends HTMLElement {
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
-    console.log(name);
+    console.log(this.attributeChangedCallback(name, oldValue, newValue)));
     this.attributesMap[name] = newValue;
     this.render();
   }
