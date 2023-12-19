@@ -28,14 +28,7 @@ class Card2 extends HTMLElement {
 
   htmlElement() {
     const html = `
-    <style>
-      .card-component__container {
-        padding: ${this.cardPadding};
-        border-radius: ${this.cardBordeRadios};
-        background-color: var(card-component__container);
-        height: ${this.cardHeight};
-      }
-    </style>
+ 
 
 
     <div class="card-component">
