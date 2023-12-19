@@ -53,24 +53,39 @@ section {
 }
 
 /* COLORS */
+
 #colors {
     card-component {
         ul {
             padding-top: 10rem;
             border-radius: 0.5rem;
+        }
         li {
             padding-top: 0.5rem;
         }
         &.primary-color {
-            --card-component-color: var(--primary-color)
+            --card-component-color: var(--primary-color);
         }
-        &.secondary.color {
-            --card-component-color: var(--secondary-colo)
+        &.secondary-color {
+            --card-component-color: var(--secondary-color);
         }
+        &.neutral-color {
+            --card-component-color: var(--neutral-color);
+        }
+        &.warning-color {
+            --card-component-color: var(--warning-color);
+        }
+
+        &.info-color {
+            --card-component-color: var(--info-color);
+        }
+        &.text-color {
+            --card-component-color: var(--text-color);
         }
     }
+    }
 
-}
+
 
 .guide-color ul {
     padding: 10rem 1rem 1rem 1rem;
