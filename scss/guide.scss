@@ -53,16 +53,23 @@ section {
 }
 
 /* COLORS */
+#colors {
+    card-component {
+        ul {
+            padding-top: 10rem;
+            border-radius: 0.5rem;
+        li {
+            padding-top: 0.5rem;
+        }
+        &.primary-color {
+            --card-component-color: var(--primary-color)
+        }
+        &.secondary.color {
+            --card-component-color: var(--secondary-colo)
+        }
+        }
+    }
 
-car-component {
-    ul {
-        padding-top: 10rem;
-        border-radius: 0.5rem;
-    li {
-        padding-top: 0.5rem;
-    }
-    
-    }
 }
 
 .guide-color ul {
