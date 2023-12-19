@@ -1,5 +1,5 @@
 class Card2 extends HTMLElement {
-  cardBordeRadios = "5rem";
+  cardBorderRadius = "5rem";
   cardPadding = "1rem";
   cardHeight = "27rem";
 
@@ -31,7 +31,7 @@ class Card2 extends HTMLElement {
     <style>
       .card-component__container {
         padding: ${this.cardPadding};
-        border-radius: ${this.cardBordeRadios};
+        border-radius: ${this.cardBorderRadius};
         background-color: var(card-component__container);
         height: ${this.cardHeight};
       }
